@@ -16,17 +16,21 @@
     }
     .player-button-section {
       background: black;
+      justify-content: flex-end;
     }
     .player {
       width: 800px;
       height: 600px;
+      display: flex;
+      flex-direction: column;
     }
     .video-container {
-      width: 100%; height: 100%
+      justify-content: flex-start;
+      flex-grow: 1;
     }
     .shadow {
       background: black;
-      box-shadow: 0 0 10px rgba(0,0,0,0.9); /* Параметры тени */
+      box-shadow: 0 0 10px rgba(0,0,0,1); /* Параметры тени */
       padding: 10px;
     }
   </style>

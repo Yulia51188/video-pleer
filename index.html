@@ -21,17 +21,22 @@
       width: 800px;
       height: 600px;
     }
-    .js-video-container {
+    .video-container {
       width: 100%; height: 100%
+    }
+    .shadow {
+      background: black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.9); /* Параметры тени */
+      padding: 10px;
     }
   </style>
 
 </head>
 
 <body>
-  <div class="player" id="player">
+  <div class="player shadow" id="player">
 
-    <div class="js-video-container"></div>
+    <div class="js-video-container video-container"></div>
 
     <div class="player-button-section" >
       <button class="player-button js-play-button">

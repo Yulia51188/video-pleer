@@ -5,6 +5,7 @@ __pycache__/
 
 # Libraries
 node_modules/
+package-lock.json
 
 # C extensions
 *.so

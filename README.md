@@ -4,6 +4,8 @@
 
 [Попробовать](https://yulia51188.github.io/video-pleer/)
 
+![image](/demo/demo_image.png)
+
 ## Ресурсы
 
 - [Библиотека для создания видеоплеера](https://github.com/devmanorg/video-player-jslib), использующая:

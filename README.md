@@ -16,7 +16,11 @@
 
 Для запуска плеера на локальной машине:
 - склонируйте репозиторий
-- запустите сервер liveroad:
+- установите библиотеку `liveroad`:
+```bash
+$ pip install livereload
+```
+- запустите сервер `liveroad`:
 ```bash
 $ python server.py 
 [I 220218 10:22:18 server:335] Serving on http://127.0.0.1:5500

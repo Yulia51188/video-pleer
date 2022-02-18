@@ -22,6 +22,7 @@
     .player-button-section {
       background: black;
       justify-content: flex-end;
+      display: flex;
     }
     .player {
       width: 800px;
@@ -38,6 +39,9 @@
       box-shadow: 0 0 10px rgba(0,0,0,1); /* Параметры тени */
       padding: 10px;
     }
+    .right-align {
+      margin-left:auto
+    }
   </style>
 
 </head>
@@ -47,7 +51,7 @@
 
     <div class="js-video-container video-container"></div>
 
-    <div class="player-button-section" >
+    <div class="player-button-section">
       <button class="player-button js-play-button">
         <i class="fa fa-play" aria-hidden="true"></i>
       </button>
@@ -62,7 +66,11 @@
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
 
-      <button class="player-button js-fullscreen-button">Fullscreen</button>
+      <div></div>
+
+      <button class="player-button right-align js-fullscreen-button" >
+        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+      </button>
     </div>
 
   </div>

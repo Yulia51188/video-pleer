@@ -23,13 +23,15 @@
 $ pip install livereload
 ```
 - запустите сервер `liveroad`:
+
 ```bash
-$ python server.py 
-[I 220218 10:22:18 server:335] Serving on http://127.0.0.1:5500
-[I 220218 10:22:18 handlers:62] Start watching changes
-[I 220218 10:22:18 handlers:64] Start detecting changes
+$ livereload dist
+[I 220222 11:24:03 server:335] Serving on http://127.0.0.1:35729
+[I 220222 11:24:03 handlers:62] Start watching changes
+[I 220222 11:24:03 handlers:64] Start detecting changes
+
 ```
-- откройте в браузере указанную страницу [http://127.0.0.1:5500](http://127.0.0.1:5500)
+- откройте в браузере указанную страницу [http://127.0.0.1:35729](http://127.0.0.1:35729)
 
 ## Цели проекта
 

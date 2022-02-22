@@ -34,12 +34,12 @@
       justify-content: flex-start;
       flex-grow: 1;
     }
-    .shadow {
+    .player-shadow {
       background: black;
       box-shadow: 0 0 10px rgba(0,0,0,1); /* Параметры тени */
       padding: 10px;
     }
-    .right-align {
+    .player-button-right-align {
       margin-left:auto
     }
   </style>
@@ -47,7 +47,7 @@
 </head>
 
 <body>
-  <div class="player shadow" id="player">
+  <div class="player player-shadow" id="player">
 
     <div class="js-video-container video-container"></div>
 
@@ -68,7 +68,7 @@
 
       <div></div>
 
-      <button class="player-button right-align js-fullscreen-button" >
+      <button class="player-button player-button-right-align js-fullscreen-button" >
         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
       </button>
     </div>

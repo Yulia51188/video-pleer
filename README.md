@@ -11,18 +11,18 @@
 - [Библиотека для создания видеоплеера](https://github.com/devmanorg/video-player-jslib), использующая:
   - [jQuery](https://jquery.com/)
   - [Playable](https://wix.github.io/playable/)
-- [Liveroad](http://livereload.com/) - отслеживание изменений в файлах для удобства разработки
+- [Livereload](http://livereload.com/) - отслеживание изменений в файлах для удобства разработки
 - [Fontawesome](https://fontawesome.ru/get-started/) - набор шрифтов для иконок кнопок видеоплеера
 
 ## Разработчикам
 
 Для запуска плеера на локальной машине:
 - склонируйте репозиторий
-- установите библиотеку `liveroad`:
+- установите библиотеку `livereload`:
 ```bash
 $ pip install livereload
 ```
-- запустите сервер `liveroad`:
+- запустите сервер `livereload`:
 
 ```bash
 $ livereload dist
